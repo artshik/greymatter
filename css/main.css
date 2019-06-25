@@ -91,10 +91,10 @@ h2 ~ p {
 }
 .nav-links a:hover,
 .nav-links a:active  {
-  color: rgba(153, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.9);
 }
 .header-nav > li:first-child a {
-  color: rgba(153, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.9);
 }
 .header-nav > li:first-child a:hover {
   color: #fff;
@@ -136,7 +136,7 @@ h2 ~ p {
 .home-callout {
   align-items: center;
   background-color: #999;
-  color: rgba(153, 0, 0);
+  color: rgba(0, 0, 0, 0.9);
   display: flex;
   padding: 25vh 0 5vh;
 }
@@ -181,10 +181,10 @@ h2 ~ p {
   flex-direction: column;
 }
 .splash-image {
-  padding-top: 5em;
+  padding-top: 1em;
 }
 .splash-image img {
-  max-height: 20em;
+  max-height: 15em;
   max-width: 20em;
 }
 .splash-text {
@@ -195,9 +195,17 @@ h2 ~ p {
 }
 .splash-text h1 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 7vw;
-  margin-top: 0.25em;
-  margin-bottom: 2em;
+  font-size: 3em;
+  padding-top: 2em;
+}
+.splash-text h2 {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.splash-text h3 {
+  color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 2em;
 }
 
 /* COLUMN STYLES */
@@ -408,7 +416,7 @@ h2 ~ p {
   }
   .mobile-menu-check:checked ~ .show-mobile-menu:after {
     background-color: #000;
-    color: rgba(153, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.9);
     content: "CLOSE";
     left: 0;
     position: absolute;
