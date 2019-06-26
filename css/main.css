@@ -1,9 +1,11 @@
 /* GLOBAL STYLES */
 html {
+  background-color: #999;
   box-shadow: 0 0 0 30px #999 inset;
   padding: 0 30px;
 }
 body {
+  background-color: #999;
   display: inline;
   font-family: 'Open Sans', helvetica, arial, sans;
   min-height: 100vh;
